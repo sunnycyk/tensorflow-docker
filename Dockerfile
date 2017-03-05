@@ -10,7 +10,7 @@ WORKDIR /usr/src/app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-
+EXPOSE 6006
 VOLUME ["/usr/src/app/"]
 
 CMD ["bash"]
